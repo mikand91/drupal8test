@@ -1,0 +1,4 @@
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_URI} ^/drupal8/ 
+RewriteRule ^ /drupal8/index.php [L] 
